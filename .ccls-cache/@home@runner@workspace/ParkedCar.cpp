@@ -1,8 +1,10 @@
 #include "ParkedCar.h"
 
+// Constructor implementation
 ParkedCar::ParkedCar(std::string mk, std::string mdl, std::string clr, std::string lic, int min)
     : make(mk), model(mdl), color(clr), licenseNumber(lic), minutesParked(min) {}
 
+// Getter functions
 std::string ParkedCar::getMake() const { return make; }
 std::string ParkedCar::getModel() const { return model; }
 std::string ParkedCar::getColor() const { return color; }
